@@ -1,5 +1,11 @@
 # LKML
 
+run test suite:
+```
+cabal run
+```
+
+usage:
 ```haskell
 main = do
   handle <- openFile "test/single.mbox" ReadMode
