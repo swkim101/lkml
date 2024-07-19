@@ -51,8 +51,14 @@ build-type:         Simple
 -- Extra doc files to be distributed with the package, such as a CHANGELOG or a README.
 extra-doc-files:    CHANGELOG.md
 
+description: LKML is a mbox parser for Linux Kernel Mailing List. Supporting tree traversal.
+
 -- Extra source files to be distributed with the package, such as examples, or a tutorial module.
 -- extra-source-files:
+
+source-repository head
+    type: git
+    location: https://github.com/swkim101/lkml
 
 common warnings
     ghc-options: -Wall
